@@ -1,6 +1,7 @@
 import React from "react";
 import { Link } from "react-scroll";
 import { HiArrowNarrowRight } from "react-icons/hi";
+import TypingEffect from "../Typetext";
 
 const Home = () => {
   return (
@@ -12,7 +13,7 @@ const Home = () => {
           Kyran Janssen
         </h1>
         <h2 className="text-4xl sm:text-7xl font-bold text-[#e1ea63]">
-          I'm a Front End developer.
+          I'm a <TypingEffect />
         </h2>
         <p className="text-[#8892b0] py-4 max-w-[700px]">
           I'm a front-end developer specializing in building exceptional digital
