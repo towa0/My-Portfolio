@@ -2,6 +2,7 @@ import React from "react";
 import WorkImg from "../assets/Rentigo.png";
 import myCompany from "../assets/WorkImg2.png";
 import DataPulse from "../assets/data_pulse.png";
+import WeatherApp from "../assets/weatherappSrc.png";
 
 const Work = () => {
   return (
@@ -9,7 +10,7 @@ const Work = () => {
       <div className="max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#e1ea63]">
-            Work
+            My projects
           </p>
           <p className="py-6">Check out some of my recent projects</p>
         </div>
@@ -30,12 +31,17 @@ const Work = () => {
                 <a
                   href="https://polite-fairy-dfd71f.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
                   </button>
                 </a>
-                <a href="https://github.com/towa0/Rentigo" target="_blank">
+                <a
+                  href="https://github.com/towa0/Rentigo"
+                  target="_blank"
+                  rel="noreferrer"
+                >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
                   </button>
@@ -58,6 +64,7 @@ const Work = () => {
                 <a
                   href="https://funny-trifle-c1d983.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -66,6 +73,7 @@ const Work = () => {
                 <a
                   href="https://github.com/towa0/Janssen_Enterprise"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -82,12 +90,13 @@ const Work = () => {
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
               <span className="text-2xl font-bold text-white tracking-wider">
-                DataPule
+                DataPulse
               </span>
               <div className="pt-8 text-center">
                 <a
                   href="https://sunny-muffin-57a601.netlify.app/"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Demo
@@ -96,6 +105,7 @@ const Work = () => {
                 <a
                   href="https://github.com/towa0/Data_Pulse_app"
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
                     Code
@@ -105,7 +115,37 @@ const Work = () => {
             </div>
           </div>
 
-
+          <div
+            style={{ backgroundImage: `url(${WeatherApp})` }}
+            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+          >
+            {/*Hover Effect */}
+            <div className="opacity-0 group-hover:opacity-100">
+              <span className="text-2xl font-bold text-white tracking-wider">
+                Weather app
+              </span>
+              <div className="pt-8 text-center">
+                <a
+                  href="https://harmonious-brigadeiros-ccd8b2.netlify.app/"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Demo
+                  </button>
+                </a>
+                <a
+                  href="https://github.com/towa0/Weather-App"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
+                    Code
+                  </button>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </div>
