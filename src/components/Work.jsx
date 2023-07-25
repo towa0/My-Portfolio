@@ -2,7 +2,7 @@ import React from "react";
 import WorkImg from "../assets/Rentigo.png";
 import myCompany from "../assets/WorkImg2.png";
 import DataPulse from "../assets/data_pulse.png";
-import WeatherApp from "../assets/weatherappSrc.png";
+import WeatherApp from "../assets/WeatherApp.png";
 
 const Work = () => {
   return (
@@ -126,7 +126,7 @@ const Work = () => {
               </span>
               <div className="pt-8 text-center">
                 <a
-                  href="https://harmonious-brigadeiros-ccd8b2.netlify.app/"
+                  href="https://sparkly-nougat-91e5e5.netlify.app"
                   target="_blank"
                   rel="noreferrer"
                 >
@@ -135,7 +135,7 @@ const Work = () => {
                   </button>
                 </a>
                 <a
-                  href="https://github.com/towa0/Weather-App"
+                  href="https://github.com/towa0/Weather_App"
                   target="_blank"
                   rel="noreferrer"
                 >
