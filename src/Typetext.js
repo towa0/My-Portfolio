@@ -40,13 +40,14 @@ function TypingEffect() {
 
     const words = [
       "Front End Developer",
+      "Data Analyst",
       "Problem solver",
       "Coffee lover",
       "Enthusiastic learner",
     ];
-    const typingSpeed = 60; // Speed in milliseconds for typing a character
-    const delay = 2000; // Delay in milliseconds after typing a word
-    const backspaceDelay = 50; // Delay in milliseconds before backspacing starts
+    const typingSpeed = 60;
+    const delay = 2000;
+    const backspaceDelay = 50;
     const elementId = "typed-text";
 
     typeEffect(words, typingSpeed, delay, backspaceDelay, elementId);
