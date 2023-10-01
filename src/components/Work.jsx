@@ -6,10 +6,10 @@ import WeatherApp from "../assets/WeatherApp.png";
 
 const Work = () => {
   return (
-    <div name="work" className="md:h-screen text-gray-300 bg-[#0a192f] w-full">
+    <div name="work" className="md:h-screen text-gray-900 bg-[#ffffff] w-full">
       <div className="max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-300 border-[#e1ea63]">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-[#49e01f]">
             My projects
           </p>
           <p className="py-6">Check out some of my recent projects</p>
@@ -19,8 +19,10 @@ const Work = () => {
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-4">
           {/*Grid item */}
           <div
-            style={{ backgroundImage: `url(${WorkImg})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            style={{
+              backgroundImage: `url(${WorkImg})`,
+            }}
+            className="shadow-xl group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -53,7 +55,7 @@ const Work = () => {
           {/*Grid item */}
           <div
             style={{ backgroundImage: `url(${myCompany})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-xl group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -85,7 +87,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${DataPulse})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-xl group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
@@ -117,7 +119,7 @@ const Work = () => {
 
           <div
             style={{ backgroundImage: `url(${WeatherApp})` }}
-            className="shadow-lg shadow-[#040c16] group container rounded-md flex justify-center items-center mx-auto content-div"
+            className="shadow-xl group container rounded-md flex justify-center items-center mx-auto content-div"
           >
             {/*Hover Effect */}
             <div className="opacity-0 group-hover:opacity-100">
