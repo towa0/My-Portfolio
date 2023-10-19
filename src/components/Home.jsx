@@ -8,13 +8,13 @@ const Home = () => {
     <div name="home" className=" w-full h-screen bg-[#ffffff]">
       {/* Container */}
       <div className="max-w-[1000px] mx-auto px-8 flex flex-col justify-center h-full">
-        <p className="text-[#49e01f]">Hi, my name is</p>
+        <p className="text-[#4594fd]">Hi, my name is</p>
         <h1 className="text-4xl sm:text-7xl font-bold text-gray-900">
           Kyran Janssen
         </h1>
         <h3 className="text-4xl sm:text-7xl font-bold text-gray-900">
           I'm a{" "}
-          <span className="text-[#49e01f]">
+          <span className="text-[#4594fd]">
             <TypingEffect />
           </span>
         </h3>
@@ -25,14 +25,14 @@ const Home = () => {
         </p>
         <div>
           <a className="inline-block">
-            <button className="text-gray-900 group border-2 px-6 py-3 my-3 flex items-center hover:border-[#49e01f]">
-              <Link to="work" smooth={true} duration={500}>
+            <Link to="work" smooth={true} duration={500}>
+              <button className="text-gray-900 group border-2 px-6 py-3 my-3 flex items-center hover:border-[#4594fd]">
                 View work
-              </Link>
-              <span className="group-hover:rotate-90 duration-300">
-                <HiArrowNarrowRight className="ml-3" />
-              </span>
-            </button>
+                <span className="group-hover:rotate-90 duration-300">
+                  <HiArrowNarrowRight className="ml-3" />
+                </span>
+              </button>
+            </Link>
           </a>
         </div>
       </div>

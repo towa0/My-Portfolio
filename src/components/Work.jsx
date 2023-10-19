@@ -9,7 +9,7 @@ const Work = () => {
     <div name="work" className="md:h-screen text-gray-900 bg-[#ffffff] w-full">
       <div className="max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full">
         <div className="pb-8">
-          <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-[#49e01f]">
+          <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-[#4594fd]">
             My projects
           </p>
           <p className="py-6">Check out some of my recent projects</p>
@@ -106,38 +106,6 @@ const Work = () => {
                 </a>
                 <a
                   href="https://github.com/towa0/Data_Pulse_app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Code
-                  </button>
-                </a>
-              </div>
-            </div>
-          </div>
-
-          <div
-            style={{ backgroundImage: `url(${WeatherApp})` }}
-            className="shadow-xl group container rounded-md flex justify-center items-center mx-auto content-div"
-          >
-            {/*Hover Effect */}
-            <div className="opacity-0 group-hover:opacity-100">
-              <span className="text-2xl font-bold text-white tracking-wider">
-                Weather app
-              </span>
-              <div className="pt-8 text-center">
-                <a
-                  href="https://sparkly-nougat-91e5e5.netlify.app"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <button className="text-center rounded-lg px-4 py-3 m-2 bg-white text-gray-700 font-bold text-lg">
-                    Demo
-                  </button>
-                </a>
-                <a
-                  href="https://github.com/towa0/Weather_App"
                   target="_blank"
                   rel="noreferrer"
                 >

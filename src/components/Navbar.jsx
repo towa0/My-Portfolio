@@ -23,7 +23,7 @@ const Navbar = () => {
             to="home"
             smooth={true}
             duration={500}
-            className="hover:text-[#49e01f]"
+            className="hover:text-[#4594fd]"
           >
             Home
           </Link>
@@ -33,7 +33,7 @@ const Navbar = () => {
             to="about"
             smooth={true}
             duration={500}
-            className="hover:text-[#49e01f]"
+            className="hover:text-[#4594fd]"
           >
             About
           </Link>
@@ -43,7 +43,7 @@ const Navbar = () => {
             to="skills"
             smooth={true}
             duration={500}
-            className="hover:text-[#49e01f]"
+            className="hover:text-[#4594fd]"
           >
             Skills
           </Link>
@@ -53,7 +53,7 @@ const Navbar = () => {
             to="work"
             smooth={true}
             duration={500}
-            className="hover:text-[#49e01f]"
+            className="hover:text-[#4594fd]"
           >
             Work
           </Link>
@@ -63,7 +63,7 @@ const Navbar = () => {
             to="contact"
             smooth={true}
             duration={500}
-            className="hover:text-[#49e01f]"
+            className="hover:text-[#4594fd]"
           >
             Contact
           </Link>
