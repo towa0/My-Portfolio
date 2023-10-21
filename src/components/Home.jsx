@@ -24,16 +24,16 @@ const Home = () => {
           responsive front-end and (occasionally) full-stack web applications.
         </p>
         <div>
-          <a className="inline-block">
+          <div className="flex">
             <Link to="work" smooth={true} duration={500}>
-              <button className="text-gray-900 group border-2 px-6 py-3 my-3 flex items-center hover:border-[#4594fd]">
+              <button className="text-gray-900 group border-2 px-6 py-3 my-3 flex items-center hover:border-[#4594fd] duration-100 hover:text-[#4594fd] glowing-card">
                 View work
                 <span className="group-hover:rotate-90 duration-300">
                   <HiArrowNarrowRight className="ml-3" />
                 </span>
               </button>
             </Link>
-          </a>
+          </div>
         </div>
       </div>
     </div>

@@ -10,72 +10,63 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[80px] flex justify-between items-center px-4 bg-[#ffffff] text-gray-900">
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#ffffff] text-gray-900">
       <div>
-        <img src={Logo} alt="LogoNav" style={{ width: "50px" }} />
+        <div
+          className="text-xl font-bold text-black hover:text-[#4594fd] cursor-pointer"
+          style={{ fontSize: "2rem" }}
+        >
+          KJ
+        </div>
       </div>
 
-      {/* Menu */}
-
       <ul className="hidden md:flex">
-        <li>
-          <Link
-            to="home"
-            smooth={true}
-            duration={500}
-            className="hover:text-[#4594fd]"
-          >
-            Home
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="about"
-            smooth={true}
-            duration={500}
-            className="hover:text-[#4594fd]"
-          >
-            About
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="skills"
-            smooth={true}
-            duration={500}
-            className="hover:text-[#4594fd]"
-          >
-            Skills
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="work"
-            smooth={true}
-            duration={500}
-            className="hover:text-[#4594fd]"
-          >
-            Work
-          </Link>
-        </li>
-        <li>
-          <Link
-            to="contact"
-            smooth={true}
-            duration={500}
-            className="hover:text-[#4594fd]"
-          >
-            Contact
-          </Link>
-        </li>
+        <Link
+          to="home"
+          smooth={true}
+          duration={500}
+          className="hover:text-[#4594fd]"
+        >
+          <li>Home</li>
+        </Link>
+        <Link
+          to="about"
+          smooth={true}
+          duration={500}
+          className="hover:text-[#4594fd]"
+        >
+          <li>About</li>
+        </Link>
+        <Link
+          to="skills"
+          smooth={true}
+          duration={500}
+          className="hover:text-[#4594fd]"
+        >
+          <li>Skills</li>
+        </Link>
+        <Link
+          to="work"
+          smooth={true}
+          duration={500}
+          className="hover:text-[#4594fd]"
+        >
+          <li>Work</li>
+        </Link>
+        <Link
+          to="contact"
+          smooth={true}
+          duration={500}
+          className="hover:text-[#4594fd]"
+        >
+          <li>Contact</li>
+        </Link>
       </ul>
 
-      {/*Hamburger */}
       <div onClick={handleClick} className="md:hidden z-10">
         {!nav ? <FaBars /> : <FaTimes />}
       </div>
 
-      {/*Mobile menu */}
       <ul
         className={
           !nav

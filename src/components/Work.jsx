@@ -2,7 +2,7 @@ import React from "react";
 import WorkImg from "../assets/Rentigo.png";
 import myCompany from "../assets/WorkImg2.png";
 import DataPulse from "../assets/data_pulse.png";
-import WeatherApp from "../assets/WeatherApp.png";
+import "../index.css"; // Import your CSS file for styles
 
 const Work = () => {
   return (

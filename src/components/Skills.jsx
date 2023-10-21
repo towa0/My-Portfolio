@@ -18,7 +18,7 @@ const skillsData = [
   { icon: Tailwind, text: "Tailwind" },
   { icon: Python, text: "Python" },
   { icon: Node, text: "NodeJS" },
-  { icon: Mongo, text: "MongoDB" }
+  { icon: Mongo, text: "MongoDB" },
 ];
 
 const Skills = () => {
@@ -36,13 +36,17 @@ const Skills = () => {
           </p>
         </div>
 
-        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+        <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 ">
           {skillsData.map((skill, index) => (
             <div
               key={index}
-              className="flex flex-col items-center p-4 bg-white rounded shadow-md hover:shadow-xl hover:scale-105 duration-200"
+              className="flex flex-col items-center p-4 bg-white rounded shadow-md hover:shadow-xl hover:scale-105 duration-200 "
             >
-              <img className="w-20" src={skill.icon} alt={`${skill.text} icon`} />
+              <img
+                className="w-20"
+                src={skill.icon}
+                alt={`${skill.text} icon`}
+              />
               <p className="my-4">{skill.text}</p>
             </div>
           ))}
