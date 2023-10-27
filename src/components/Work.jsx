@@ -2,11 +2,11 @@ import React from "react";
 import WorkImg from "../assets/Rentigo.png";
 import myCompany from "../assets/WorkImg2.png";
 import DataPulse from "../assets/data_pulse.png";
-import "../index.css"; // Import your CSS file for styles
+import "../index.css"; 
 
 const Work = () => {
   return (
-    <div name="work" className="md:h-screen text-gray-900 bg-[#ffffff] w-full">
+    <div name="work" className="md:h-screen text-gray-900 bg-[#ffffff] w-full mt-[20vh] sm:mt-0">
       <div className="max-w-[1000px] mx-auto p-4 flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 text-gray-900 border-[#4594fd]">

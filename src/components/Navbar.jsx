@@ -10,7 +10,7 @@ const Navbar = () => {
   const handleClick = () => setNav(!nav);
 
   return (
-    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#ffffff] text-gray-900">
+    <div className="fixed w-full h-[70px] flex justify-between items-center px-4 bg-[#ffffff] text-gray-900 font-bold">
       <div>
         <div
           className="text-xl font-bold text-black hover:text-[#4594fd] cursor-pointer"
@@ -71,7 +71,7 @@ const Navbar = () => {
         className={
           !nav
             ? "hidden"
-            : "absolute top-0 left-0 w-full h-screen bg-[#0a192f] flex flex-col justify-center items-center"
+            : "absolute top-0 left-0 w-full h-screen bg-[#fbfbfb] flex flex-col justify-center items-center"
         }
       >
         <li className="py-6 text-4xl">
